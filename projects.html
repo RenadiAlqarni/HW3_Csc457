@@ -2,66 +2,55 @@
 <html>
 <head>
 <title>Renad Alqarni | Projects</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="top">
     <header>
-        <nav role="navigation">
+        <nav class="navbar" role="navigation">
             <a href="index.html">Home</a>
             <a href="cv.html">CV</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="projects.html"class="active" >Projects</a>
+            <a href="contact.html" class="contact-link" >Contact</a>
         </nav>
     </header>
 
-    <main>
+    <main class="projects-page">
         <h1>FEATURED WORK</h1>
-        <p>Explore my work!</p>
+<p class="projects-subtitle">Explore my work!</p>
 
-        <article>
-            <h2>Orate</h2>
-            <time datetime="2026-07">July 2026</time>
+<article class="project-card">
+    <img src="orate.png" alt="Orate App">
 
-            <figure>
-                <img src="orate.png" alt="Orate public speaking application interface" width="400">
-                <figcaption>
-                    Orate - AI-powered public speaking application.
-                </figcaption>
-            </figure>
-            <p>
-                An app that helps students who want to improve their public speaking skills by practicing with AI and receiving feedback on their body language.
-            </p>
-            <p>
-                <a href="https://github.com/ralqarnii01/Orate"
-                 target="_blank">
-                 View Orate Project</a>
-            </p>
-        </article>
+    <div class="project-info">
+        <h2>Orate</h2>
+        <p>
+            An app that helps students improve their
+            public speaking skills using AI.
+        </p>
+        <a href="https://github.com/ralqarnii01/Orate"
+           target="_blank">View Project</a>
+    </div>
+</article>
 
-        <article>
-            <h2>MediPet</h2>
-            <time datetime="2025-12">December 2025</time>
-
-            <figure>
-                <img src="medipet.png" alt="MediPet pet care application interface" width="400">
-                <figcaption>
-                    MediPet - Pet care application UI design.
-                </figcaption>
-            </figure>
-            <p>
-                This project is a user interface (UI) design for a pet care application aimed at pet owners.
-                The interfaces are designed to demonstrate how users could manage their pets' health information.
-            </p>
-            <p>
-                <a href="https://www.figma.com/design/1YP7v0DPZprluSdwUOmx2p/MediPet?node-id=0-1&t=WsgdEYbRwoo7TKqu-1" 
-                target="_blank">
-                View MediPet Project</a>
-            </p>
-        </article>
+<article class="project-card reverse">
+    <img src="medipet.png" alt="MediPet App">
+    
+        <div class="project-info">
+        <h2>MediPet</h2>
+        <p>
+            A UI design for a pet care application
+            that helps owners manage their pets'
+            health information.
+        </p>
+        <a href="https://www.figma.com/design/1YP7v0DPZprluSdwUOmx2p/MediPet?node-id=0-1&t=WsgdEYbRwoo7TKqu-1"
+           target="_blank">View Project</a>
+    </div>
+</article>
 
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2026 Renad Alqarni</p>
         <a href="#top">Back to Top</a>
     </footer>
